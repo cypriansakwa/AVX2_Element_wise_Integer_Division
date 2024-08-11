@@ -1,0 +1,8 @@
+[package]
+name = "AVX2_Element_wise_Integer_Division"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tfhe = { version = "*", features = ["boolean", "shortint", "integer", "x86_64"] }
+criterion = "0.5.1"
